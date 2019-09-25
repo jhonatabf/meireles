@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Orçamento | Meireles Contabilidade</title>
+    <style type="text/css">
+    html, body {
+      margin: 0 !important;
+      padding: 0 !important;
+      height: 100% !important;
+      width: 100% !important;
+    }
+    * {
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+    .ExternalClass {
+      width: 100%;
+    }
+    /* What is does: Centers email on Android 4.4 */
+    div[style*="margin: 16px 0"] {
+      margin: 0 !important;
+    }
+    /* What it does: Stops Outlook from adding extra spacing to tables. */
+    table, td {
+      mso-table-lspace: 0pt !important;
+      mso-table-rspace: 0pt !important;
+    }
+    /* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+    table {
+      border-spacing: 0 !important;
+      border-collapse: collapse !important;
+      table-layout: fixed !important;
+      margin: 0 auto !important;
+    }
+    table table table {
+      table-layout: auto;
+    }
+    /* What it does: Uses a better rendering method when resizing images in IE. */
+    img {
+      -ms-interpolation-mode: bicubic;
+    }
+    /* What it does: Overrides styles added when Yahoo's auto-senses a link. */
+    .yshortcuts a {
+      border-bottom: none !important;
+    }
+    /* What it does: Another work-around for iOS meddling in triggered links. */
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+    }
+    </style>
+    <!-- Progressive Enhancements -->
+    <style type="text/css">
+    /* What it does: Hover styles for buttons */
+    .button-td, .button-a {
+      transition: all 100ms ease-in;
+    }
+    .button-td:hover, .button-a:hover {
+      background: #555555 !important;
+      border-color: #555555 !important;
+    }
+    </style>
+  </head>
+  <body width="100%" height="100%" bgcolor="#f9f9f9" style="margin: 0;" yahoo="yahoo">
+    <table cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" bgcolor="#f9f9f9" style="border-collapse:collapse;">
+      <tr>
+        <td><center style="width: 100%;">
+          
+          <div style="max-width: 600px;">
+            <!--[if (gte mso 9)|(IE)]>
+            <table cellspacing="0" cellpadding="0" border="0" width="600" align="center">
+              <tr>
+                <td>
+                  <![endif]-->
+                  
+                  <!-- Email Header : END -->
+                  
+                  <!-- Email Body : BEGIN -->
+                  <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="100%" style="max-width: 600px;">
+                    
+                    <!-- Hero Image, Flush : BEGIN -->
+                    <tr>
+                      <td class="full-width-image" align="center" ><img src='http://www.meirelescontabilidade.com.br/assets/images/mail.jpg' width='600' alt='alt_text' border='0' style='width: 100%; max-width: 600px; height: auto;'></td>
+                    </tr>
+                    <!-- Hero Image, Flush : END -->
+                    
+                    <!-- 1 Column Text : BEGIN -->
+                    <tr>
+                      <td>
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                          <tr>
+                            <td style="padding: 40px; font-family: sans-serif; font-size: 15px; mso-height-rule: exactly; line-height: 20px; color: #555555;">
+                              <h3>Olá, Você possui uma nova solicitação de orçamento.</h3>
+                              <p>
+								  <strong>Nome do Cliente: </strong>
+								  %DS_NOME%<br/>
+								  <strong>%TP_DOCUMENTO%: </strong>
+								  %DS_DOCUMENTO%<br/>
+								  <strong>CPF do Responsável: </strong>
+								  %DS_CPF%<br/>
+								  <strong>Serviços Desejados: </strong>
+								  %DS_SERVICOS%<br/>
+								  <strong>Data Nascimento: </strong>
+								  %DT_NASCIMENTO%<br/>
+								  <strong>Número RG: </strong>
+								  %NR_RG%<br/>
+								  <strong>Estado Civíl: </strong>
+								  %DS_CIVIL%<br/>
+								  <strong>Endereço: </strong>
+								  %DS_ENDERECO%<br/>
+								  <strong>Número da Casa: </strong>
+								  %NR_CASA%<br/>
+								  <strong>Complemento: </strong>
+								  %DS_COMPLEMENTO%<br/>
+								  <strong>Estado: </strong>
+								  %DS_ESTADO%<br/>
+								  <strong>Cidade: </strong>
+								  %DS_CIDADE%<br/>
+								  <strong>CEP: </strong>
+								  %NR_CEP%<br/>
+								  <strong>Número Telefone: </strong>
+								  %NR_TELEFONE%<br/>
+								  <strong>E-Mail: </strong>
+								  %DS_EMAIL%<br/>
+								  <hr style="border:0px;border-top:1px solid #ccc;">
+								  <strong>Descrição do pedido do cliente: </strong><br/>
+								  %DS_DESCRICAO%<br/>
+							  </p>                              
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- Email Footer : BEGIN -->
+                  <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 680px;">
+                    <tr>
+                      <td style="padding: 40px 10px;width: 100%;font-size: 12px; font-family: sans-serif; mso-height-rule: exactly; line-height:18px; text-align: center; color: #888888;">
+                        <br>
+                        Meireles Contabilidade<br>
+                        <span class="mobile-link--footer">AVENIDA JOSE BUHATEM, 113-A - PRÓXIMO DA JESSICA EVENTOS - VILA NAZARE - MAIOBAO, Paço do Lumiar - MA, 65130-000</span> <br></td>
+                      </tr>
+                    </table>
+                    <!-- Email Footer : END -->
+                    
+                    <!--[if (gte mso 9)|(IE)]>
+                  </td>
+                </tr>
+              </table>
+              <![endif]-->
+            </div>
+          </center>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

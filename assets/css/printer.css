@@ -1,0 +1,10 @@
+@media print {
+	.aviso *, .navbar *, #footer *{
+		display: none;
+		height: 0cm;
+		margin: 0cm;
+		top: 0cm;
+		left: 0cm;
+	}
+	
+}
